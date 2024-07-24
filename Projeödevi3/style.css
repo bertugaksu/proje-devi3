@@ -1,0 +1,185 @@
+ nav.navbar {
+  font-size: 0.875rem !important;
+  font-family: var(--bs-font-sans-serif);
+  width: 100%;
+  position: fixed !important;
+  z-index: 1000 !important;
+}
+.navbar-brand:hover {
+  color: blue;
+}
+.nav-link {
+  font-weight: 400px;
+  font-size: 16px;
+}
+nav button.btn {
+  font-size: 15px;
+}
+nav button.navbar-toggler div {
+  font-size: 14px;
+}
+nav button.navbar-toggler span {
+  font-size: 8px;
+}
+.modal-backdrop {
+    z-index: -1;
+  }
+.modal-header {
+  background: linear-gradient(to right, #2f3adf 0%, #9b1be7 100%);
+  color: white;
+ 
+}
+.modal form {
+  font-size: 16px;
+}
+form button.btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 100px;
+}
+textarea {
+  height: max-content !important;
+}
+.telefon {
+  background-color: #f8f9fb;
+  padding: 0px 90px !important;
+}
+h1 {
+  font-family: var(--bs-body-font-family);
+  font-weight: lighter;
+  line-height: 80px !important;
+}
+a img {
+  width: 155px;
+}
+.resim {
+  width: 270px !important;
+  height: 540px !important;
+  z-index: 2 !important;
+  position: relative;
+}
+.daire {
+  background: linear-gradient(to right, #522deb 0%, #9b1be7 100%);
+  position: absolute !important;
+  padding: 200px;
+  border-radius: 200px;
+}
+div i.bi-circle-fill {
+  top: 10px;
+  color: blue;
+  position: absolute !important;
+  font-size: smaller;
+}
+div i.bi-x-lg {
+  color: blue;
+  bottom: 20px;
+  position: absolute !important;
+  font-size: larger;
+  margin-left:-300px;
+  
+  
+}
+.alıntı {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 30px 0px;
+  line-height: 1.2 !important;
+}
+.alıntı img {
+  width: 160px;
+  display: block;
+  
+}
+.features div i.ikon {
+   color: blueviolet !important;
+    font-size: 4rem;
+}
+.telefon-2{
+    position: absolute;  
+    top: 0;
+    left: 80px;
+    justify-content: center !important;
+    align-items: center !important;
+    display:flex;
+}
+.daire-2{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;  
+    background: linear-gradient(to right, #522deb 0%, #9b1be7 100%);
+    position: absolute !important;
+    align-items: center !important;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    right: 30px;
+}
+.features {
+    margin-bottom: 120px;
+}
+@media (max-width:1200px) {
+   .telefon-2{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   }
+}
+@media (max-width:576px){
+    .telefon-2{
+        justify-content: center;
+        display: block;
+        align-items: center;
+        width: 60%;
+    }
+}
+.space{
+    background-color: #f8f9fb;
+}
+.d-container{
+    position: relative;
+    width: 100%;
+    height: 369px;
+    color: white;
+    
+}
+.downloadd{
+    display: block;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Gratis-logo-big.svg/1200px-Gratis-logo-big.svg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.3);
+}
+.yükle{
+    background: linear-gradient(to right, #2f3adf 0%, #9b1be7 100%);
+    padding: 100px;
+}
+footer{
+    padding: 50px ;
+    background-color: black;
+}
+footer a {
+    color: rgba(255, 255, 255, 0.5);
+    margin-right:3px ;
+    margin-left: 3px ;
+}
+.ikonlar{
+    background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+    background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+    background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
